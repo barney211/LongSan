@@ -1,0 +1,16 @@
+<!--pages/picShow/picShow.wxml-->
+<view class="picShowPage">
+    <view style="margin-top:15px;"  wx:for="{{productList}}" wx:key="{{index}}" bindtap="showInfo">
+        <i-card title="{{item.title}}" extra="{{item.extra}}" thumb="../../images/product/tv/tv.jpg" >
+            <view slot="content">{{item.detail}}</view>
+        </i-card>
+    </view>
+
+    <i-modal visible="{{ visible2 }}" bind:ok="handleClose2" bind:cancel="handleClose2">
+        <view>请到店参观，购买</view>
+        <view>地址: 仁寿县清水镇市场街</view>
+        <view>Tel: 15883313906</view>
+    </i-modal>
+
+
+</view>

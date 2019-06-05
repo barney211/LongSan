@@ -1,0 +1,107 @@
+<!--pages/iView01/iView01.wxml-->
+<view class="homePage">
+     <view class="mainBody">
+         <!--图片-->
+         <!--隔离带-->
+         <view style="width:100%;height:20px;background: #04A192"></view>
+         <view style="width:100%;height:130px;">
+             <image src="../../images/logo.jpg" alt="" style="width:100%;height:100%;"/>
+         </view>
+         <!--隔离带-->
+         <view style="width:100%;height:20px;background: #04A192"></view>
+         <!--宫格-->
+          <view>
+              <swiper style="height:210px;">
+                  <swiper-item >
+                      <i-grid>
+                          <i-grid-item bindtap="toPicList">
+                              <i-grid-icon>
+                                  <image src="../../images/icon/tv.png" />
+                              </i-grid-icon>
+                              <i-grid-label>电视</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/refreege.png" />
+                              </i-grid-icon>
+                              <i-grid-label>冰箱</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/ac.png" />
+                              </i-grid-icon>
+                              <i-grid-label>空调</i-grid-label>
+                          </i-grid-item>
+                      </i-grid>
+                      <i-grid>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/washingMachine.png" />
+                              </i-grid-icon>
+                              <i-grid-label>洗衣机</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/waterFountain.png" />
+                              </i-grid-icon>
+                              <i-grid-label>饮水机</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/cooker.png" />
+                              </i-grid-icon>
+                              <i-grid-label>电饭煲</i-grid-label>
+                          </i-grid-item>
+                      </i-grid>
+                  </swiper-item>
+                  <swiper-item>
+                      <i-grid>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/waterHeater.png" />
+                              </i-grid-icon>
+                              <i-grid-label>热水壶</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/bycicle.png" />
+                              </i-grid-icon>
+                              <i-grid-label>自行车</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/fan.png" />
+                              </i-grid-icon>
+                              <i-grid-label>电风扇</i-grid-label>
+                          </i-grid-item>
+                      </i-grid>
+                      <i-grid>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="../../images/icon/drier.png" />
+                              </i-grid-icon>
+                              <i-grid-label>小家电</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="" />
+                              </i-grid-icon>
+                              <i-grid-label>......</i-grid-label>
+                          </i-grid-item>
+                          <i-grid-item>
+                              <i-grid-icon>
+                                  <image src="" />
+                              </i-grid-icon>
+                              <i-grid-label>......</i-grid-label>
+                          </i-grid-item>
+                      </i-grid>
+                  </swiper-item>
+              </swiper>
+          </view>
+     </view>
+    <!--通告栏-->
+    <i-notice-bar icon="systemprompt" loop color="#04A192" background-color="#fff"  style="height:80px;font-size: 30px;">
+        龙三电器，品质卓越，价格实惠，您的不二选择！
+    </i-notice-bar>
+    <include  src="../commonBottom/commonBottom.wxml"/>
+</view>

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/iView01/iView01",
+    "pages/picShow/picShow",
+    "pages/commonBottom/commonBottom",
+    "pages/logs/logs",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

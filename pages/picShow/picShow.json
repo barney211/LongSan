@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#04A192",
+  "navigationBarTitleText": "产品展示",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-modal": "../../dist/modal/index"
+  }
+}

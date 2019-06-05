@@ -1,0 +1,6 @@
+<!--pages/commonBottom.wxml-->
+<view class="commonBottom">
+    <view style="font-size: 16px;">仁寿清水龙三电器</view>
+    <view>地址：仁寿县清水镇市场街</view>
+     <view>联系电话: 15883313906  (龙Boss)</view>
+</view>
